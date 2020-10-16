@@ -21,7 +21,7 @@ class Particle {
         rotate(angle);
         //imageMode(CENTER);
         noStroke();
-        fill(this.color)
+        fill("blue")
         ellipseMode(RADIUS);
         ellipse(0, 0, this.r,this.r);
         pop();
